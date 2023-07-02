@@ -13,7 +13,7 @@ public class FreelancerService {
 
             } else {
                 // работаем
-//                money = money + income;git
+//                money = money + income;
                money += income;
                money -= expenses;
            }

@@ -31,7 +31,7 @@ import static org.junit.jupiter.api.Assertions.*;
     }
 
     @ParameterizedTest
-     @CsvFileSource(resources = "test_data.csv")
+     @CsvFileSource(resources= "test_data.csv")
      public void testCalculateWithParams(int income, int expenses, int threshold, int expected) {
         FreelancerService service = new FreelancerService();
         int actual = service.calculate(income, expenses, threshold);
